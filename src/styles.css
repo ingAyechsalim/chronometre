@@ -1,0 +1,53 @@
+.TimerDynamic {
+  font-family: sans-serif;
+  text-align: center;
+  width: 300px;
+  border-radius: 12px 12px;
+  padding: 10px;
+  border: 1px solid blue;
+}
+.TimerDynamic :hover {
+  border-radius: 12px 12px;
+  background-color: #ad310b;
+  -webkit-transition: background-color 1000ms linear;
+  -ms-transition: background-color 1000ms linear;
+  transition: background-color 1000ms linear;
+}
+.time-format {
+  font-size: 2em;
+}
+.time-text {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(17, 16, 16);
+  border: 1px solid blue;
+  vertical-align: top;
+  padding: 10px;
+  background-color: rosybrown;
+}
+.start {
+  border-radius: 5px 5px;
+  padding: 10px 25px;
+  margin: 10px;
+}
+.start:hover {
+  background-color: rgb(139, 255, 149);
+}
+.reset {
+  border-radius: 5px 5px;
+  padding: 10px 25px;
+}
+.reset:hover {
+  background-color: rgb(255, 139, 145);
+}
+.pause {
+  border-radius: 5px 5px;
+  padding: 10px 25px;
+  margin: 10px;
+}
+
+.pause:hover,
+.pause:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}

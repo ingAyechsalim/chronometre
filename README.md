@@ -1,2 +1,0 @@
-# chronometre
-Created with CodeSandbox
